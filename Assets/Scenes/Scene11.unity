@@ -12924,7 +12924,7 @@ GameObject:
   - component: {fileID: 465964458}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -14440,6 +14440,45 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 6022641643971964317, guid: bd60a5db143ac5346a0c4ce719a0baea, type: 3}
   m_PrefabInstance: {fileID: 503194714}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &504039546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1423871381841479250, guid: f054e7bf1ec097f438d0c22c275ebdc4, type: 3}
+  m_PrefabInstance: {fileID: 1905380757}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &504039547
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504039546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42a4ee762e89c6f4cb8eaa2668fefb47, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sceneToLoad: Win
+--- !u!65 &504039551
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 504039546}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4897406, y: 2.0752409, z: 2.1042042}
+  m_Center: {x: 0.0119899465, y: 1.0179368, z: -0.0093886275}
 --- !u!1 &504588654 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1437242426805090903, guid: 2e1ecf6b062fbd248a32028e6ef85fcd, type: 3}
@@ -52211,7 +52250,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1423871381841479250, guid: f054e7bf1ec097f438d0c22c275ebdc4, type: 3}
       propertyPath: m_Name
-      value: GateSquareClosed
+      value: GateWin
       objectReference: {fileID: 0}
     - target: {fileID: 6699788139766515435, guid: f054e7bf1ec097f438d0c22c275ebdc4, type: 3}
       propertyPath: m_LocalScale.x
@@ -52268,7 +52307,13 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1423871381841479250, guid: f054e7bf1ec097f438d0c22c275ebdc4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 504039547}
+    - targetCorrespondingSourceObject: {fileID: 1423871381841479250, guid: f054e7bf1ec097f438d0c22c275ebdc4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 504039551}
   m_SourcePrefab: {fileID: 100100000, guid: f054e7bf1ec097f438d0c22c275ebdc4, type: 3}
 --- !u!1001 &1909308438
 PrefabInstance:
